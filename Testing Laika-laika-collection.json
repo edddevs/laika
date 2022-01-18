@@ -1,0 +1,58 @@
+{
+  "uuid": "dab78d31-b75e-4599-bd04-86f1f8e07630",
+  "name": "Testing Laika",
+  "children": [
+    {
+      "uuid": "1405c2b7-e294-4084-b4f1-3065b9c104c1",
+      "address": "0x888b1FFf8111Ac73831EFC5f3D22cA9669D2F094",
+      "name": "status",
+      "abi": {
+        "type": "function",
+        "name": "status",
+        "stateMutability": "view",
+        "inputs": [
+          {
+            "type": "address",
+            "name": ""
+          }
+        ],
+        "outputs": []
+      },
+      "params": [
+        "0x44124A619bB77d3D1Fa351DC59Ac5a7Bd87fE151"
+      ]
+    },
+    {
+      "uuid": "1114a801-459c-4cb7-a25c-4cbbd2af6b33",
+      "address": "0x888b1FFf8111Ac73831EFC5f3D22cA9669D2F094",
+      "name": "register",
+      "abi": {
+        "type": "function",
+        "name": "register",
+        "stateMutability": "nonpayable",
+        "inputs": [],
+        "outputs": []
+      },
+      "params": []
+    },
+    {
+      "uuid": "a0d9a880-8e89-4b43-930d-16de52c94fdd",
+      "address": "0x1E82dB1E71F7Af2d76F5D1F7BdD27F8E6C337357",
+      "name": "getApplicationForm",
+      "abi": {
+        "type": "function",
+        "name": "getApplicationForm",
+        "stateMutability": "view",
+        "inputs": [],
+        "outputs": [
+          {
+            "type": "address",
+            "name": ""
+          }
+        ]
+      },
+      "params": []
+    }
+  ],
+  "isOpen": true
+}
